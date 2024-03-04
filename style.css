@@ -1,19 +1,24 @@
-table {
-    border: 1px solid black;
-        
+/*
+font in /images
+using the font that I use for developing
+as I think its a very good font (and I like ligatures)
+*/
+
+@font-face {
+    src: url(/images/FiraCodeNerdFont-Retina.ttf);
+    font-family: Firacode;
 }
 
-img {
-    border-radius: 6px;
-    align-items: center;
+* {
+    font-family: Firacode;
+}
 
+
+.github {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
 }
-ul {
-    background-color: aquamarine;
-}
-.highlight {
-    background-color: yellow;
-}
-ul, li {
-    .highlight{}
-}
+
+
+
