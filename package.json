@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chcknlegwill/chcknlegwill.github.io/issues"
   },
-  "homepage": "https://github.com/chcknlegwill/chcknlegwill.github.io#readme"
+  "homepage": "https://github.com/chcknlegwill/chcknlegwill.github.io#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
