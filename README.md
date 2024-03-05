@@ -1,2 +1,2 @@
-# chcknlegwill.github.io
+# chcknlegwill.com
 Portfolio / info site
