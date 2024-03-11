@@ -5,7 +5,7 @@ as I think its a very good font (and I like ligatures)
 */
 
 @font-face {
-    src: url("../images/FiraCodeNerdFont-Retina.ttf");
+    src: url("/public/images/FiraCodeNerdFont-Retina.ttf");
     font-family: Firacode;
 }
 
