@@ -21,7 +21,7 @@ app.use("/", require("./routes/root.js"));
 
 app.use("/index", require("./routes/index.js"));
 
-app.use("/blog", require("./routes/"))
+app.use("/blog", require("./routes/blog.js"));
 
 app.all("*", (req, res) => {
     res.status(404)
