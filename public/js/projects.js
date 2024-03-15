@@ -4,3 +4,6 @@ button.addEventListener("click", redirectIndex);
 function redirectIndex() {
     window.location = "/";
 }
+
+
+

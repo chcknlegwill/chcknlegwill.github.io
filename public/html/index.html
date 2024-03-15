@@ -5,22 +5,24 @@
    <link rel="stylesheet" href="/public/css/index.css"> 
    <script src="/public/js/index.js" defer></script>
  </head>
+    <header class="header">
+    <div links>
+      <a href="https://github.com/chcknlegwill/" target="_blank">
+        <img class="github" id="github" src="/public/images/github.png"></img>
+      </a>
+    </div>
+    <div class="title-container">
+      <h1 class="title">Chcknlegwill<h1>
+    </div>
+  </header> <!--Also need to align title with buttons because of the github logo -->
  <body>
-  <div links>
-    <a href="https://github.com/chcknlegwill/" target="_blank">
-      <img class="github" id="github" src="/public/images/github.png"></img>
-    </a>
-
-  </div>
-  <div class="title-container">
-    <h1 class="title">Chcknlegwill<h1>
-  </div>
+  
     <div container-buttons class="container-buttons">
       <div blog>
-        <button onclick="redirect()">>Blog</button>
+        <button onclick="redirect()">>Blog</button>   <!-- need to to get these working with event listeners so html looks more uniform & cleaner-->
       </div>
       <div projects>
-        <button>>Projects</button>
+        <button onclick="redirectProj()">>Projects</button> <!-- need to to get these working with event listeners so html looks more uniform & cleaner-->
       </div>
     </div>
  </body>

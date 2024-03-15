@@ -23,6 +23,8 @@ app.use("/index", require("./routes/index.js"));
 
 app.use("/blog", require("./routes/blog.js"));
 
+app.use("/projects", require("./routes/projects.js"));
+
 app.all("*", (req, res) => {
     res.status(404)
     if (req.accepts("html")) {
