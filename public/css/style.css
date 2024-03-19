@@ -1,3 +1,11 @@
+/*
+font in /images
+using the font that I use for developing
+as I think its a very good font (and I like ligatures)
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+*/
+
 * { 
     font-family: "Fira Code"; /*could use monospace but Fira Code has those sweet, sweet ligatures*/
 }
@@ -17,12 +25,12 @@ body {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
+    flex-grow: 4;
 }
 
 .header {
-    display: flex;
-    align-self: center;
-    justify-content: center;
+    display: inline;
+    vertical-align: top;
 }
 
 .title {
@@ -34,19 +42,18 @@ body {
     justify-self: center;
 }
 
-.links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10px;
-}
-
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.container-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
 button {
     font-size: 30px;

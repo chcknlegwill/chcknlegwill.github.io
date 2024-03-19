@@ -1,3 +1,10 @@
+/*
+font in /images
+using the font that I use for developing
+as I think its a very good font (and I like ligatures)
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+*/
 
 * { 
     font-family: "Fira Code"; /*could use monospace but Fira Code has those sweet, sweet ligatures*/
@@ -5,23 +12,53 @@
 
 body {
     background-color: #3c3836;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .github {
     width: 50px;
-    height: 50px;
+    height: 51px;
 }
 
 .title-container {
     display: flex;
     justify-content: center;
     align-items: center;
-flex-direction: column;
+    flex-direction: column;
 }
+
+.header {
+    display: inline;
+    vertical-align: top;
+}
+
 .title {
     color: #cc241d;
     font-weight: 600;
     letter-spacing: 2px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 button {

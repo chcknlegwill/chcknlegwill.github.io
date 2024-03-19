@@ -2,11 +2,12 @@
 <html> 
  <head>
    <title>William - portfolio website</title>
-   <link rel="stylesheet" href="/public/css/index.css"> 
+   <link rel="ICON" href="/public/images/vitruvian_man_tech.jpeg" type="image/x-icon">
+   <link rel="stylesheet" href="/public/css/style.css"> 
    <script src="/public/js/index.js" defer></script>
  </head>
     <header class="header">
-    <div links>
+    <div links class="links">
       <a href="https://github.com/chcknlegwill/" target="_blank">
         <img class="github" id="github" src="/public/images/github.png"></img>
       </a>
@@ -19,10 +20,10 @@
   
     <div container-buttons class="container-buttons">
       <div blog>
-        <button onclick="redirect()">>Blog</button>   <!-- need to to get these working with event listeners so html looks more uniform & cleaner-->
+        <button id="blog-btn">>Blog</button>   
       </div>
       <div projects>
-        <button onclick="redirectProj()">>Projects</button> <!-- need to to get these working with event listeners so html looks more uniform & cleaner-->
+        <button id="proj-btn">>Projects</button> 
       </div>
     </div>
  </body>
