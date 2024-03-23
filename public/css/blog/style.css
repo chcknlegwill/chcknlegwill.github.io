@@ -42,14 +42,13 @@ hr.solid {
     background-color: #b2a687;
     width: 80%;
 }
-.title {
+.title-header {
     color: #cc241d;
     font-weight: 600;
     letter-spacing: 2px;
     border: #b2a687 solid 1px;
     border-radius: 8px;
 }
-
 
 .container-buttons {
     display: flex;
@@ -84,46 +83,47 @@ button:hover {
 .blog-cont {
     display: flex;
     width: 80%;
-    flex-direction: row;
+    flex-direction: column;
     height: 100%;
 }
 
 .blog {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     flex-wrap: wrap;
     gap: 20px; 
     width: 100%;
     flex-shrink: 1; 
 }
 
+#Description {
+    border-bottom: dashed 2px #b2a687;
+    padding-bottom: 10px;
+}
 
-.blog-element {
-    display: flex;
-    flex-direction: column;
+p {
+    color: #b2a687;
+}
+a {
+    color: #9cbb26;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(126, 150, 30);
+    text-decoration: none;
+}
+
+.title {
+    color: #cc241d;
     margin: 0;
-    border: 1px #b2a687;
-    padding: 3px;
-    width: 30%;
 }
-
-#title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h2, .subheading {
+    color: #d65d0e;
+    border: none;
     margin: 0;
-    padding: 1px;
 }
 
-
-#des-content {
-    display: none;
-}
-
-#desc {
+.main-txt {
     margin: 0;
-    color: #796b4d;
+    font-size: 15px;
 }
-
-
-
