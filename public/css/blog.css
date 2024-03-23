@@ -57,29 +57,14 @@ hr.solid {
     align-items: center;
     gap: 20px;
 }
-
+.back-btn {
+    font-size: 30px;
+}
 button {
     display: block;
-    font-size: 30px;
     background-color: #ebdbb2;
     border: none;
     border-radius: 6px;
-    @keyframes rotating {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
 }
 
 
@@ -96,13 +81,17 @@ button:hover {
 }
 
 .blog {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
 
 .blog-element {
     display: flex;
     flex-direction: column;
     margin: 0;
+    border: solid #b2a687;
 }
 
 #title {
