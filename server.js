@@ -34,9 +34,9 @@ app.all("*", (req, res) => {
     } else {
         res.type("txt").send("404 Not Found")
     }
-});
+}); //handles all requests that are not handled with before.
 
-console.log(__dirname)
+//console.log(__dirname)
 
 app.listen(PORT, () => {
     console.log(`Server is running on port: ${PORT}`)
