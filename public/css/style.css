@@ -5,7 +5,6 @@ as I think its a very good font (and I like ligatures)
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 700
 */
-
 * { 
     font-family: "Fira Code"; /*could use monospace but Fira Code has those sweet, sweet ligatures*/
 }
