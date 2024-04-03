@@ -5,7 +5,7 @@ const { format } = require("date-fns");
 const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3500;
-// declaring global variables
+// ^declaring global variables
 
 
 const { logger } = require("./middleware/logEvents");

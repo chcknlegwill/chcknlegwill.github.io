@@ -43,6 +43,7 @@ body {
     letter-spacing: 2px;
     border: #b2a687 solid 1px;
     border-radius: 8px; 
+    padding: 4px;
 }
 
 .main {
@@ -68,4 +69,15 @@ button {
 button:hover {
     background-color: #b2a687;
     cursor: pointer;
+}
+
+p {
+    color: #ebdbb2;
+    width: 88%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
