@@ -8,7 +8,11 @@ as I think its a very good font (and I like ligatures)
 
 * { 
     font-family: "Fira Code"; /*could use monospace but Fira Code has those sweet, sweet ligatures*/
+}
+
+h1 {
     font-weight: 450;
+    font: 48px;
 }
 
 body {
@@ -90,10 +94,10 @@ button:hover {
 .blog {
     display: flex;
     flex-flow: column;
-    flex-wrap: wrap;
-    gap: 20px; 
+    gap: 15px; 
     width: 100%;
-    flex-shrink: 1; 
+    flex-shrink: 1.5; 
+    margin-top: 3%;
 }
 
 #Description {
@@ -117,10 +121,14 @@ a:hover {
     color: #cc241d;
     margin: 0;
 }
+p {
+    margin: 0;
+}
 h2, .subheading {
     color: #d65d0e;
     border: none;
     margin: 0;
+    font-weight: 450;
 }
 
 .main-txt {

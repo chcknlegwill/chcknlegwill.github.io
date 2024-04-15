@@ -4,19 +4,28 @@ button.addEventListener("click", redirectIndex);
 function redirectIndex() {
     window.location = "/";
 }
+/*
+window.location = "LINK" -> replaces current window
+window.open = "LINK" -> opens a new window 
+*/
+
+
 
 //====================================================
 //must add 1 onto this for every new blog I add!!!!
 //====================================================
 
-let bruh = document.getElementsByClassName("blog-element")
+let items = document.getElementsByClassName("blog-element")
+//console.log(bruh) 
+//items are a html collection and seem to behave like arrays which is suitible for now
 
-bruh[0].addEventListener("click", firstRedir);
-function firstRedir() {window.location= "/blog/First"};
+items[0].addEventListener("click", firstRedir);
+function firstRedir() {window.open("/blog/first")};
 
-bruh[1].addEventListener("mouseover", eloWorld)
+items[1].addEventListener("click", secondRedir);
+function secondRedir() {window.open("/blog/winLinMac")};
 
-console.log(bruh);
+//console.log(bruh);
 //not "hover" --> "mouseover"
 
 //console.log(button2);

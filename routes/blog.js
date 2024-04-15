@@ -10,5 +10,8 @@ router.get("/", (req, res) => {
 router.get("/First", (req, res) => {
     res.sendFile(path.join(__dirname, "..", "public", "html", "blog", "First.html"))
 })
+router.get("/winLinMac", (req, res) => {
+    res.sendFile(path.join(__dirname, "..", "public", "html", "blog", "winLinMac.html"))
+})
 
 module.exports = router;

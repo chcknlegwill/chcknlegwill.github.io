@@ -23,11 +23,10 @@ body {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-    flex-grow: 4;
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 50px;
 }
 
 .header {
@@ -66,7 +65,8 @@ h1 {
 }
 
 button {
-    font-size: 30px;
+    font-size: 38px;
+    font-weight: 450;
     background-color: #ebdbb2;
     border: none;
 }
