@@ -20,20 +20,18 @@ let items = document.getElementsByClassName("blog-element")
 //items are a html collection and seem to behave like arrays which is suitible for now
 
 items[0].addEventListener("click", firstRedir);
-function firstRedir() {window.open("/blog/first")};
+function firstRedir() {window.location = "/blog/first"};
 
 items[1].addEventListener("click", secondRedir);
-function secondRedir() {window.open("/blog/winLinMac")};
+function secondRedir() {window.location = "/blog/winLinMac"};
 
 //console.log(bruh);
 //not "hover" --> "mouseover"
 
 //console.log(button2);
+//doing hover & description reveal in css as its much easier
+//than with DOM & JS.
 
-
-function hoverFunc() {
-    console.log("hover works")
-}
 
 function eloWorld() {
     console.log("hello world");
