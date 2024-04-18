@@ -1,0 +1,1 @@
+Need to make header the same size across all pages otherwise it looks weird changing across them and dosent feel natural at all - could just use the same css file for all of them rather than seperate ones - I'll see.
