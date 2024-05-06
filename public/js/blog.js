@@ -30,7 +30,7 @@ function secondRedir() {window.location = "/blog/winLinMac"};
 
 //console.log(button2);
 //doing hover & description reveal in css as its much easier
-//than with DOM & JS.
+//than with DOM & JS.= 1234
 
 
 function eloWorld() {
